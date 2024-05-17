@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "pythonpoetry"
+version = "0.1.0"
+description = ""
+authors = ["dheeraj hegde <dheeraj.r.hegde@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.1.20"
+openai = "^1.30.1"
+fastapi = "^0.111.0"
+numpy = "^1.26.4"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.2"
+sqlalchemy = "^2.0.30"
+langchain-openai = "^0.1.7"
+mysqlx-connector-python = "^8.4.0"
+mysql-connector-python = "^8.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
